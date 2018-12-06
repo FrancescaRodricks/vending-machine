@@ -10,8 +10,6 @@ class VendingMachine
   include SetupProducts
   include SetupFunds
 
-  attr_accessor :changes
-
   def initialize
     default_products
     default_funds
@@ -163,6 +161,6 @@ Programs asks to choose each type of coin and total number per coin
 coin in a denomination and the count and calculate if that covers the total cost of the
 item being purchased, if so then proceed to return the item with funds deducted etc.
 
-VendingMachine methods - need to be refacted and methods need to be extracted in
+VendingMachine methods - need to be refactored and methods need to be extracted in
 appriate classes/modules
 =end
